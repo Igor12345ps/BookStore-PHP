@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    /*background-attachment: scroll, scroll, scroll, fixed;*/
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 25em, 25em, auto, cover;
+    color: #fff;
+    cursor: default;
+    padding: 6em 0;
+    text-align: center;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+
+  #login {
+    padding-bottom: 100px;
+  }
+
+  .espaco-vert{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
